@@ -1,8 +1,8 @@
 {
   "autoload": {
-    "classmap": [
-      "src/"
-    ]
+    "psr-4": {
+      "Proxy\\Library\\": "src/classes"
+    }
   },
   "require-dev": {
     "phpunit/phpunit": "^9"
